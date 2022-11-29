@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('/assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+    font-weight: 100 1000;
+	font-stretch: 25% 151%;
+}
+
+body{font-family: 'Inter';}
+
+.offcanvas-header .btn-close{color: #000;}
+.navbar-nav .nav-link{font-size: 1.15em; color: #000;transform: translateX(0); transition: transform 0.2s ease-in-out, color 0.2s ease-in-out; } 
+.navbar-nav .nav-link:hover{color:darkgray;}
+.zero{padding: 0;}
+.img-wrapper{overflow: hidden;}
+img{transform: scale(1); transition: transform 0.3s ease-in-out;}
+img:hover{transform: scale(1.1);}
+/* Main Section */
+
+#main-section img.main-img{width: 100%; }
+#main-section h1.main-title{font-size: 4em;font-weight: bold;}
+#main-section .text-container{display: flex; flex-direction: column; justify-content: space-between; height: 100%;}
+#main-section .text-container button{border: none;padding: 17px 26px;text-transform: uppercase;background: #dc5f4c;color: white;letter-spacing: 0.5em;font-size: 0.9em;max-width: 265px; transition: background 0.3s ease-in-out, letter-spacing 0.3s ease-in-out;}
+#main-section .text-container button:hover{background: #e3a753; letter-spacing: 0.7em;}
+#main-section .text-container p{color:#6c6b71;font-size: 1.17em;}
+#main-section .side-wrapper{background: #000219;height: 100%;display: flex;flex-direction: column;justify-content: space-between;}
+#main-section .side-title{color:#e3a753;font-size: 3em;;}
+#main-section .side-wrapper .text-wrapper h3{color: #fff; font-size: 1.6em;}
+#main-section .side-wrapper hr{color: white;}
+#main-section .side-wrapper .text-wrapper p{color:#757689;font-size: 1.2em;}
+
+/* Bottom Section */
+#bottom-section img.bottom-img{width:100%;}
+#bottom-section .subtitle{color: #b4b4b4; font-size: 2em;}
+#bottom-section .text.text-first{font-size: 1.25em; font-weight: bold;}
+#bottom-section .text.text-secondary{font-size: 1.1em;}
+#bottom-section .text-wrapper{display: flex; flex-direction: column; justify-content: space-between; height: 100%;}
+
+
+@media only screen and (max-width: 1400px) {
+    #main-section .side-title{font-size: 2em;}
+    #main-section .side-wrapper .text-wrapper h3{font-size: 1.4em;}
+    #main-section .text-container p{font-size: 1em;}
+    #main-section .side-wrapper .text-wrapper p{font-size: 1em;}
+
+    #bottom-section .subtitle{font-size: 1.4em;}
+    #bottom-section .text.text-first{font-size: 1.21em;}
+    #bottom-section .text.text-secondary{font-size: 0.9em;}
+}
+
+@media only screen and (max-width: 1200px) {
+    #main-section h1.main-title{font-size: 3em;}
+    #main-section .text-container button{padding: 12px 15px;font-size: 0.85em;}
+    #main-section .side-title{}
+    #main-section .side-wrapper .text-wrapper h3{font-size: 1.1em;}
+    #main-section .text-container p{font-size: 0.83em;}
+    #main-section .side-wrapper .text-wrapper p{font-size: 0.78em;}
+
+    #bottom-section .subtitle{font-size: 1.1em;}
+    #bottom-section .text.text-first{font-size: 1em;}
+    #bottom-section .text.text-secondary{font-size: 0.86em;}
+}
+
+
+@media only screen and (max-width: 992px) {
+    .navbar-nav .nav-link{font-size: 1.5em;margin-bottom: 1.4em; }
+    .navbar-nav .nav-link:hover{transform: translate(8px);}
+    #main-section .text-container button{max-width: none; width: 100%;}
+    #main-section h1.main-title{text-align: center; font-size: 2.8em;}
+    #main-section .text-container p{font-size: 1em;text-align: center;}
+    
+    #bottom-section .subtitle{font-size: 2em;}
+    #bottom-section .text.text-first{font-size: 1.5em;}
+    #bottom-section .text.text-secondary{font-size: 1.5em;}
+    #bottom-section .text-wrapper{justify-content: space-around;}
+}
+
+@media only screen and (max-width: 768px) {
+    #bottom-section .subtitle{font-size: 1.8em;}
+    #bottom-section .text.text-first{font-size: 1.5em;}
+    #bottom-section .text.text-secondary{font-size: 1.2em;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
